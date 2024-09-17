@@ -161,7 +161,7 @@ export default function Page() {
           <div className="max-w-3xl mx-auto">
            {
             pricing?.map((item)=>(   
-              <PricingCard pricing={item}/>
+              <PricingCard key={item?.title} pricing={item}/>
             ))
            }
           </div>
