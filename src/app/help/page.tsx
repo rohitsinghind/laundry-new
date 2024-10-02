@@ -8,7 +8,7 @@ import Faqs from "@/components/faqs";
 const faqs = [
   {
     title: "How can I schedule my maiden service?",
-    desc: "An order can be scheduled through our website, or by calling at +91 120-682-4455. You can also visit to our store.",
+    desc: "An order can be scheduled through our website, or by calling at +91 930-419-1710. You can also visit to our store.",
   },
   {
     title: "What's the usual turnaround time?",
@@ -20,11 +20,11 @@ const faqs = [
   },
   {
     title: "How to contact your support team in case of a query/complaint?",
-    desc: "You can call us at +91 930-419-1710 or write to us at contact@laundry.in. We will be more than happy to resolve it.",
+    desc: "You can call us at +91 930-419-1710 or write to us at contact@tideup.in. We will be more than happy to resolve it.",
   },
   {
     title: "Are their things that you will not Clean?",
-    desc: "We are a one-stop cleaning company providing you with all possible services connected with Laundry, Dry-cleaning, Steam ironing and Shoe &amp; Backpack Laundry. Our portfolio is limited to these areas as of now. However, in future, we would introduce more and more innovative services, and we will keep you posted.",
+    desc: "We are a one-stop cleaning company providing you with all possible services connected with Laundry, Dry-cleaning, Steam ironing and Shoe & Backpack Laundry. Our portfolio is limited to these areas as of now. However, in future, we would introduce more and more innovative services, and we will keep you posted.",
   },
   {
     title: "How do I make payment?",
@@ -33,8 +33,9 @@ const faqs = [
 ];
 
 export const metadata = {
-  title: "Help | [Company Name]",
-  description: "Learn more about [Company Name] and our mission to provide innovative web and app development solutions. Discover our team's expertise, values, and commitment to delivering exceptional results that drive your business forward.",
+  title: "Help | Tideup | Premium Laundry & Dry Cleaners",
+  description: "Get your laundry done quickly and professionally with Tideup. We offer top-quality washing, dry cleaning, and ironing services at affordable prices. Book a pickup now!",
+  keywords:['Laundry Service', 'Dry Cleaning', 'Ironing', 'Clothes Washing', 'Laundry Pickup and Delivery', 'Affordable Laundry', 'Fast Laundry Service', 'Jamshedpur Laundry']
 };
 
 
@@ -46,7 +47,7 @@ export default function Page() {
     <main>
       <PageHeader title={"HELP"} className="about-banner" />
       <Faqs faqs={faqs} />
-    <Testimonial name="Jay Pathak" img="/assets/images/clients/jay.jpeg" review="Today, I tried online order for pick up n drop service. They served exactly what they promised, am really pleased. Their collection n delivery person was also very well mannered, punctual and understanding."/>
+      <Testimonial name="Rosie Wiley" img="/assets/images/client.jpg" review="Today, I tried online order for pick up n drop service. They served exactly what they promised, am really pleased. Their collection n delivery person was also very well mannered, punctual and understanding."/>
     </main>
     <Footer/>
     </>

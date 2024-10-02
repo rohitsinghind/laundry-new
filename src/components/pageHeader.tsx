@@ -15,7 +15,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, className }) => {
           {title}
         </h1>
         <h2 className="text-white font-semibold md:text-2xl text-lg text-center mt-4">
-          COMPANY NAME
+          TIDEUP
         </h2>
       </div>
       <div className="w-full bg-black/50 flex justify-center items-center sm:gap-6 gap-3 py-4 px-2">

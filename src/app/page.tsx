@@ -9,67 +9,67 @@ import Testimonial from "@/components/testimonial";
 import { MapPin, Truck  } from 'lucide-react';
 
 const features = [{
-                    title:"Professionally Trained Gearments Care",
-                    desc:"All Experts at fabric practice professional world class processes to take care of your garments.",
+                    title:"Professional Garment Care",
+                    desc:"Our team of experts follows world-class cleaning processes to ensure your garments receive the best possible care.",
                     icon:"/assets/icons/care.png"
                   },
                   {
-                    title:"Convenient Payment Options",
-                    desc:"Pay as you prefer via Card, Net Banking, E-Wallets, UPI, Cash, etc. We accept all modes of payment.",
+                    title:"Flexible Payment Options",
+                    desc:"Choose your preferred payment method: Card, Net Banking, E-Wallets, UPI, or Cash. We support all major modes of payment for your convenience.",
                     icon:"/assets/icons/payment.png"
                   },
                   {
-                    title:"Convenient and Free Pick Up & Drop",
-                    desc:"Now schedule and manage your Pickup & Drop conveniently on our Website or a Phone call.",
+                    title:"Free Pickup & Delivery",
+                    desc:"Schedule and manage your pickups and deliveries seamlessly through our website or a quick phone call. Experience hassle-free laundry like never before!",
                     icon:"/assets/icons/pickup-drop.png"
                   },]
 
 
 const achivements = [{
                     title:"Order Online",
-                    desc:"Schedule order using website or Phone call",
+                    desc:"Place your order conveniently through our website or a quick phone call.",
                     icon:"/assets/icons/projects.png"
                   },
                   {
                     title:"Pick Up",
-                    desc:"We pickup your laundry as per your schedule time",
+                    desc:"We’ll collect your laundry at the time and location that suits you best.",
                     icon:"/assets/icons/pickup.png"
                   },
                   {
                     title:"Cleaning",
-                    desc:"We'll expertly launder/dry clean your order with top-quality service",
+                    desc:"Our professionals will expertly launder or dry clean your clothes, ensuring top-quality results every time.",
                     icon:"/assets/icons/washing.png"
                   },
                   {
                     title:"Drop Off",
-                    desc:"Delivered at your doorstep at a time comfortable to you",
+                    desc:"We’ll deliver your fresh, clean clothes right to your doorstep, at a time that’s convenient for you.",
                     icon:"/assets/icons/drop.png"
                   },]
 
 const services = [{
-                    title:"Laundry",
-                    desc:"We provide quick and efficient laundry solution for laundry.",
+                    title:"Laundry Services",
+                    desc:"Fast, efficient, and hassle-free laundry solutions to keep your clothes fresh and clean.",
                     img:"/assets/images/laundry.jpg",
-                    link:"/mobile-apps"
+                    link:"/"
                   },
                   {
-                    title:"Dry Cleaning",
-                    desc:"We dry clean for every household items no matter the size.",
+                    title:"Dry Cleaning Services",
+                    desc:"Professional dry cleaning for all your household items, no matter the size.",
                     img:"/assets/images/drycleaning.jpg",
-                    link:"website"
+                    link:"/"
                   },
                   {
-                    title:"Shoe Cleaning",
-                    desc:"Order your Shoe Laundry & Dry Cleaning. Find Shoe Cleaning near you",
+                    title:"Shoe Cleaning Services",
+                    desc:"Give your shoes a new lease on life with our specialized shoe cleaning and care.",
                     img:"/assets/images/shoes-washing.jpg",
-                    link:"digital-marketing"
+                    link:"/"
                   },]
 
 export const metadata = {
-  title: "[Company Name] | Homepage | Web & App Development Solutions | Digital Marketing Services",
-  description: "Elevate your online presence with our innovative web and app development solutions and strategic digital marketing services. At [Company Name], we specialize in crafting custom websites and mobile apps that engage users and drive business growth. Explore our services and unleash the full potential of your digital presence today.",
+  title: "Premium Laundry & Dry Cleaners | Fast & Affordable | Tideup",
+  description: "Get your laundry done quickly and professionally with Tideup. We offer top-quality washing, dry cleaning, and ironing services at affordable prices. Book a pickup now!",
+  keywords:['Laundry Service', 'Dry Cleaning', 'Ironing', 'Clothes Washing', 'Laundry Pickup and Delivery', 'Affordable Laundry', 'Fast Laundry Service', 'Jamshedpur Laundry']
 };
-
 
 export default function Home() {
   return (
@@ -80,21 +80,21 @@ export default function Home() {
     <section className="home-banner min-h-screen flex items-center justify-center">
           <div className="pt-24 px-2">
             <h1 className="text-white font-bold md:text-4xl text-2xl text-center uppercase">
-              Say Hello To The Hassle Free Laundry !
+            Welcome to Stress-Free Laundry Solutions!
             </h1>
             <h2 className="text-white font-medium md:text-2xl text-xl text-center mt-6 max-w-5xl mx-auto">
-                Premium Laundry & Dry Clean Service in <p className="font-bold text-cyan-300 text-3xl flex item-center justify-center"><MapPin className="mt-1 mr-2"/>Jamshedpur</p>
+                Premium Laundry & Dry Clean Service in Experience Premium Laundry & Dry Cleaning Services in<p className="font-bold text-cyan-300 text-3xl flex item-center justify-center"><MapPin className="mt-1 mr-2"/>Jamshedpur</p>
             </h2>
             <h2 className="text-white font-medium md:text-xl text-lg text-center mt-4 max-w-5xl mx-auto">
-                Get upto 20% off on your first order
+            Enjoy up to 20% off on your first order.
             </h2>
            
-                <ScheduleDialog className="flex gap-4 justify-center items-center border-2 border-cyan-400 mt-8 md:px-8 px-4 md:py-4 py-2 rounded-lg bg-black/50 mx-auto max-w-fit shadow-lg delay-50 duration-300 hover:scale-105 text-white font-semibold md:text-xl text-base text-center">Schedule Free Pickup  <Truck /></ScheduleDialog>
+                <ScheduleDialog className="flex gap-4 justify-center items-center border-2 border-cyan-400 mt-8 md:px-8 px-4 md:py-4 py-2 rounded-lg bg-black/50 mx-auto max-w-fit shadow-lg delay-50 duration-300 hover:scale-105 text-white font-semibold md:text-xl text-base text-center">Book a Free Pickup<Truck /></ScheduleDialog>
         
           </div>
         </section>
 
-        <Section className="w-full" head="We Collect, Clean, and Deliver your Laundry and Dry Cleaning at your Doorstep" subHead="Discover comprehensive range of laundry and dry clean">
+        <Section className="w-full" head="We Collect, Clean, and Deliver — Right to Your Doorstep!" subHead="Explore Our Comprehensive Laundry & Dry Cleaning Services">
           <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-4 w-full justify-center">
             {
               features?.map((item,i)=>(
@@ -126,13 +126,13 @@ export default function Home() {
         </div>
         </section>
 
-        <Section className="w-full" head="QUALITY CLEANING WITH GREAT SAVING!" subHead="No Dhobi Ghat, No manual process. Just Hi-Tech smart machines cleaning your gar,ents with all delicacy & expertise required.">
+        <Section className="w-full" head="Quality Cleaning, Unmatched Savings!" subHead="Forget traditional methods—experience the future of laundry! Our hi-tech smart machines handle your garments with precision, ensuring gentle yet effective cleaning for every fabric type.">
             <div className="w-full flex justify-center floating">
-            <Image src='/assets/images/laundry-banner.png' alt="responsive devices" width={1900} height={1200} className="max-w-4xl w-full"/>
+            <Image src='/assets/images/laundry-banner.png' alt="tideup" width={1900} height={1200} className="max-w-4xl w-full"/>
             </div>
         </Section>
 
-        <Section className="w-full bg-gray-200 reveal" head="PREMIUM LAUNDRY & DRY CLEAN SERVICE IN JAMSHEDPUR" subHead="Discover comprehensive range of laundry and dry clean services in Jamshedpur. From everyday home wear to Office Attire, Shoes, and even dedicate Woollen Garments, we have you covered.">
+        <Section className="w-full bg-gray-200 reveal" head="Premium Laundry & Dry Cleaning Services in Jamshedpur" subHead="Explore our wide range of laundry and dry cleaning solutions tailored to meet all your needs! Whether it’s daily wear, office attire, shoes, or delicate woolen garments—we’ve got you covered.">
           <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 w-full justify-center">
             {
               services?.map((item,i)=>(
@@ -142,8 +142,7 @@ export default function Home() {
           </div>
         </Section>
 
-        <Testimonial name="Jay Pathak" img="/assets/images/clients/jay.jpeg" review="Today, I tried online order for pick up n drop service. They served exactly what they promised, am really pleased. Their collection n delivery person was also very well mannered, punctual and understanding."/>
-
+        <Testimonial name="Rosie Wiley" img="/assets/images/client.jpg" review="Today, I used their online pickup and drop service, and they delivered exactly as promised. I’m genuinely pleased with the experience! The collection and delivery staff were courteous, punctual, and very professional."/>
   </main>
   <Footer/>
   </>

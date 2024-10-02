@@ -226,37 +226,11 @@ input[type="number"] {
 }
 
 
-.website-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/assets/images/web-development.jpg") center center no-repeat;
-  width: 100%;
-  background-size: cover;
-}
 
-.app-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/assets/images/app-development.jpg") center center no-repeat;
-  width: 100%;
-  background-size: cover;
-}
-
-.marketing-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/assets/images/digital-marketing.jpg") center center no-repeat;
-  width: 100%;
-  background-size: cover;
-}
 
 .about-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/assets/images/about-banner.jpg") center center no-repeat;
-  width: 100%;
-  background-size: cover;
-}
-
-.projects-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/assets/images/projects-banner.jpg") center center no-repeat;
+    url("/assets/images/page-banner.jpg") center center no-repeat;
   width: 100%;
   background-size: cover;
 }

@@ -3,7 +3,7 @@ export default function WhatsappBtn() {
     return (
       <>
         <Link
-          href="https://api.whatsapp.com/send?phone=919304191710&text=Hey%F0%9F%91%8B%2C%20Let%27s%20Team%20up%20on%20a%20Project!%F0%9F%98%80"
+          href="https://api.whatsapp.com/send?phone=919304191710&text=Hi%20there%2C%20I%27m%20interested%20in%20your%20laundry%20services."
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50  delay-50 duration-300 hover:scale-105 shadow-lg hover:shadow-xl pt-1 pr-1 pb-2  pl-2 bg-white/20 rounded-full whatsapp-btn hover:animate-none duration-300"

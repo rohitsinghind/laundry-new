@@ -4,8 +4,9 @@ import WhatsappBtn from "@/components/whatsappBtn";
 import Footer from "@/components/footer";
 
 export const metadata = {
-  title: "Page Not Found | [Company Name]",
-  description: "Oops! It looks like the page you're looking for doesn't exist. Don't worry, let's get you back on track. Return to our homepage or explore our website to find the information you're seeking. If you need further assistance, feel free to contact us directly.",
+  title: "Premium Laundry & Dry Cleaners | Fast & Affordable | Tideup",
+  description: "Get your laundry done quickly and professionally with Tideup. We offer top-quality washing, dry cleaning, and ironing services at affordable prices. Book a pickup now!",
+  keywords:['Laundry Service', 'Dry Cleaning', 'Ironing', 'Clothes Washing', 'Laundry Pickup and Delivery', 'Affordable Laundry', 'Fast Laundry Service', 'Jamshedpur Laundry']
 };
 
 

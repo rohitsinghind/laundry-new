@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 // import ContactBtn from "./contactBtn";
@@ -35,7 +36,7 @@ export default function Navbar() {
     <nav className={`${scrolled ? "active-navbar" : ""} navbar w-full shadow-b-lg fixed z-50`}>
       <div className="max-w-7xl mx-auto py-4 px-2 flex justify-between gap-4">
         <Link href="/">
-          <h1 className="text-white">Logo</h1>
+          <Image src="/assets/logos/logo.png" alt="logo" width={400} height={200} className="max-w-36"/>
         </Link>
         <div className="flex lg:justify-between w-full max-w-2xl justify-end items-center lg:gap-10 gap-4">
           {navLinks.map((item, i) => (

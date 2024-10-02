@@ -59,7 +59,7 @@ export default function Footer() {
 
   return (
     <footer>
-       <Section className="w-full bg-gray-700 text-gray-200" head="Get A Callback" subHead="The easy and smart way to take care of your laundry and dry cleaning.">
+       <Section className="w-full bg-gray-700 text-gray-200" head="Request a Callback" subHead="The easiest way to manage your laundry and dry cleaning needs—right from your home!">
         <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="max-w-lg mx-auto">
           <div className="space-y-4 my-4">
@@ -71,7 +71,7 @@ export default function Footer() {
                     <FormLabel className="min-w-24">Name</FormLabel>
                     <FormControl>
                     <Input
-                        placeholder="Please enter your Name"
+                        placeholder="Enter your full name"
                         {...field}
                     />
                     </FormControl>
@@ -87,7 +87,7 @@ export default function Footer() {
                     <FormLabel className="min-w-24">Phone No.</FormLabel>
                     <FormControl>
                     <Input
-                        placeholder="Please enter your Phone No."
+                        placeholder="Enter your contact number"
                         {...field}
                         type="number"
                     />
@@ -103,7 +103,7 @@ export default function Footer() {
         </Section> 
         <div className="w-full bg-gray-900 text-gray-400 text-sm px-2 py-8 flex flex-col justify-center items-center">
             <Link href='/' className="">
-                <h1 className="text-white">Logo</h1>
+            <Image src="/assets/logos/logo.png" alt="logo" width={400} height={200} className="max-w-36"/>
             </Link>
             <p className="">Copyright © 2024. Designed & Developed with ❤️</p>
             <div className="flex mt-4 justify-center items-center w-full gap-2">

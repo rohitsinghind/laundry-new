@@ -5,150 +5,13 @@ import PageHeader from "@/components/pageHeader";
 import Testimonial from "@/components/testimonial";
 import Section from "@/components/section"
 import PricingCard from "@/components/pricingCard";
+import { pricing } from "./data";
 
-const pricing = [{
-  title:"Laundry By Weight",
-  icon:"",
-  tabs:[{
-    title:"All",
-    services:[{
-      title:"wash & Fold",
-      price:"₹ 80/kg"
-    },
-    {
-      title:"Wash & Iron",
-      price:"₹ 120/Kg"
-    },
-    {
-      title:"Premium Laundry",
-      price:"₹ 190/kg"
-    },
-  ]}]},
-{
-  title:"Shirt",
-  icon:"",
-  tabs:[{
-    title:"Kids",
-    services:[{
-      title:"Dry Clean",
-      price:"₹ 95/pc"
-    },
-    {
-      title:"Steam Press",
-      price:"₹ 20/pc"
-    },
-    {
-      title:"Starching",
-      price:"₹ 25/pc"
-    },
-    {
-      title:"Prem... Steam Press",
-      price:"₹ 25/pc"
-    },
-  ]},
-  {
-    title:"Silk",
-    services:[{
-      title:"Dry Clean",
-      price:"₹ 120/pc"
-    },
-    {
-      title:"Steam Press",
-      price:"₹ 20/pc"
-    },
-    {
-      title:"Starching",
-      price:"₹ 25/pc"
-    },
-    {
-      title:"Prem... Steam Press",
-      price:"₹ 25/pc"
-    },
-  ]},
-  {
-    title:"Cotton",
-    services:[{
-      title:"Dry Clean",
-      price:"₹ 95/pc"
-    },
-    {
-      title:"Steam Press",
-      price:"₹ 20/pc"
-    },
-    {
-      title:"Starching",
-      price:"₹ 25/pc"
-    },
-    {
-      title:"Prem... Steam Press",
-      price:"₹ 25/pc"
-    },
-  ]},
-  ]
-},
-{
-  title:"T-Shirt",
-  icon:"",
-  tabs:[{
-    title:"Kids",
-    services:[{
-      title:"Dry Clean",
-      price:"₹ 90/pc"
-    },
-    {
-      title:"Steam Press",
-      price:"₹ 15/pc"
-    },
-    {
-      title:"Starching",
-      price:"₹ 25/pc"
-    },
-    {
-      title:"Prem... Steam Press",
-      price:"₹ 25/pc"
-    },
-  ]},
-  {
-    title:"Cotton",
-    services:[{
-      title:"Dry Clean",
-      price:"₹ 90/pc"
-    },
-    {
-      title:"Steam Press",
-      price:"₹ 15/pc"
-    },
-    {
-      title:"Starching",
-      price:"₹ 25/pc"
-    },
-    {
-      title:"Prem... Steam Press",
-      price:"₹ 25/pc"
-    },
-  ]},
-  {
-    title:"Long Sleeves",
-    services:[{
-      title:"Dry Clean",
-      price:"₹ 95/pc"
-    },
-    {
-      title:"Steam Press",
-      price:"₹ 20/pc"
-    },
-    {
-      title:"Starching",
-      price:"₹ 25/pc"
-    },
-    {
-      title:"Prem... Steam Press",
-      price:"₹ 25/pc"
-    },
-  ]},]
-},
-
-]
+export const metadata = {
+  title: "Pricing | Tideup | Premium Laundry & Dry Cleaners",
+  description: "Get your laundry done quickly and professionally with Tideup. We offer top-quality washing, dry cleaning, and ironing services at affordable prices. Book a pickup now!",
+  keywords:['Laundry Service', 'Dry Cleaning', 'Ironing', 'Clothes Washing', 'Laundry Pickup and Delivery', 'Affordable Laundry', 'Fast Laundry Service', 'Jamshedpur Laundry']
+};
 
 export default function Page() {
   return (
@@ -157,7 +20,7 @@ export default function Page() {
     <WhatsappBtn/>
     <main>
       <PageHeader title={"PRICING"} className="about-banner" />
-      <Section className="w-full" head="We Collect, Clean, and Deliver your Laundry and Dry Cleaning at your Doorstep" subHead="Discover comprehensive range of laundry and dry clean">
+      <Section className="w-full" head="Affordable Pricing for Premium Laundry Services" subHead="Explore our transparent pricing options tailored to meet all your laundry and dry cleaning needs—no hidden fees, just great value!">
           <div className="max-w-3xl mx-auto">
            {
             pricing?.map((item)=>(   
@@ -166,7 +29,7 @@ export default function Page() {
            }
           </div>
         </Section>
-    <Testimonial name="Jay Pathak" img="/assets/images/clients/jay.jpeg" review="Today, I tried online order for pick up n drop service. They served exactly what they promised, am really pleased. Their collection n delivery person was also very well mannered, punctual and understanding."/>
+        <Testimonial name="Rosie Wiley" img="/assets/images/client.jpg" review="Today, I tried online order for pick up n drop service. They served exactly what they promised, am really pleased. Their collection n delivery person was also very well mannered, punctual and understanding."/>
     </main>
     <Footer/>
     </>

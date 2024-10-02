@@ -11,10 +11,10 @@ export default function Section({ children, className = "", head, subHead = "" }
   return (
     <section className={className}>
       <div className="max-w-7xl mx-auto py-20 px-2">
-        <h2 className="text-center font-semibold md:text-2xl text-lg mb-1 reveal uppercase">
+        <h2 className="text-center font-semibold md:text-2xl text-lg mb-1 uppercase">
           {head}
         </h2>
-        <div className="before:bg-cyan-400 before:inline-block before:w-36 before:h-0.5 before:content-[''] before:align-middle after:bg-cyan-400 after:inline-block after:w-36 after:h-0.5 after:content-[''] after:align-middle text-center flex justify-center items-center gap-2 mb-3 reveal">
+        <div className="before:bg-cyan-400 before:inline-block before:w-36 before:h-0.5 before:content-[''] before:align-middle after:bg-cyan-400 after:inline-block after:w-36 after:h-0.5 after:content-[''] after:align-middle text-center flex justify-center items-center gap-2 mb-3 ">
           <span>
             <svg
               width="35px"
@@ -41,11 +41,11 @@ export default function Section({ children, className = "", head, subHead = "" }
           </span>
         </div>
         {subHead && (
-          <p className="text-center mb-10 md:text-base text-sm reveal">
+          <p className="text-center mb-10 md:text-base text-sm">
             {subHead}
           </p>
         )}
-        <div className="reveal">{children}</div>
+        <div className="">{children}</div>
       </div>
     </section>
   );
